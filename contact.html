@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="icon" href="./images/bratim logo.jpg">
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+
+</head>
+<body style="background-color: black; color: white;">
+
+    <!-- nav section below  -->
+
+    <nav class="navbar">
+        <div class="container">
+          <div class="logo"><a href="index.html"><img src="./images/bratim logo.jpg" alt="Bratim logo" height="80px" width="80px"></a></div>
+          <ul>
+              <li> 
+                  <a href="index.html">Home</a> 
+              </li>
+              <li> 
+                  <a href="about.html">About</a> 
+              </li>
+              <li> 
+                  <a href="contact.html">Contact</a> 
+              </li>
+  
+          </ul>
+        </div>
+      </nav>
+      <!-- nav section above  -->
+
+      <!-- header section below -->
+
+      
+
+
+      <header class="contact-header p-4">
+        <div class="container">
+
+             <button class="btn btn-success" onclick="document.getElementById('computer').src = 'images/on.avif'" style="margin: 0px;">Turn on</button>
+
+             <img src="images/off.avif" width="900px" height="500px" id="computer" alt="" style="margin: 25px;">
+
+              <button class="btn btn-danger" onclick="document.getElementById('computer').src = 'images/off.avif'" style=" margin-bottom: 50px;">Turn Off</button>
+
+
+
+            <form action="http://formspree.io/f/xlevwnqg" onsubmit="return validateForm()">
+                <p><h3 style="color: rgb(6, 109, 177); padding-left: 400px;">We'd love to hear from you !!!</h3></p>
+
+
+                <p class="text-danger" id="errorMsg"></p>
+                <p class="text-success" id="successMsg"></p>
+                
+                <input type="name" id="name" placeholder="Your Name (required)" class="form-control pt-3">
+
+                <input type="number" id="phone-number" placeholder="Your Phone Number" class="form-control mt-3">
+
+                <input type="email" id="email" placeholder="Your Email (required)" class="form-control mt-3">
+
+                <textarea name="message" id="message" cols="30" rows="10" class="form-control mt-3" placeholder="Your Message"></textarea>
+
+                <!-- <input type="message" id="message" placeholder="Your Message" class="form-control mt-3"> -->
+
+
+                <input type="submit" class="form-control mt-3 btn btn-success" id="Submit" style="background-color: rgb(6, 109, 177);">
+
+            </form>
+
+        </div>
+
+      </header>
+
+   
+    
+
+    <!-- header section above -->
+        
+    
+    <!-- footer section below -->
+
+
+     <footer class="boxes">
+        <div class="container">
+    
+            <div class="footer-box">
+             <h5">CONTACT INFORMATION</h5>
+
+             <ul style="list-style: none;">
+                <li> <i class="fa fa-home"></i > Plot 274 Independence Avenue, Ground Floor,<br> Nattional Library Building,<br style="text-align: center;"> Central Business District, Abuja</li>
+                <li> <i class="fa fa-phone"></i> +234 (0) 8033577375</li>
+                <li> <i class="fa fa-phone"></i> +234 (0) 7047262796</li>
+                <li> <i class="fa fa-info"></i> info@bratim.com</li>
+
+             </ul>
+
+             
+
+             <!-- <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Bratim%20Abuja%20National%20Library&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:400px;}</style><a href="https://www.embedgooglemap.net">google maps html code</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div> -->
+             
+             
+            </div>
+    
+        </div>
+        
+    </footer>
+
+    
+    <!-- footer section below -->
+
+
+   
+
+    
+    
+</body>
+
+<script src="style.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+</html>
